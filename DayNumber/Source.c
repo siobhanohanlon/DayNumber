@@ -89,7 +89,69 @@ void main()
 	//Year is not a leapyear
 	else
 	{
-		
+		switch (month)
+		{
+			//January
+		case 1:
+			//first month so day is num
+			dayNum = day;
+			break;
+
+			//February
+		case 2:
+			dayNum = day + jan;
+			break;
+
+			//March
+		case 3:
+			dayNum = day + feb;
+			break;
+
+			//April
+		case 4:
+			dayNum = day + mar;
+			break;
+
+			//May
+		case 5:
+			dayNum = day + april;
+			break;
+
+			//June
+		case 6:
+			dayNum = day + may;
+			break;
+
+			//July
+		case 7:
+			dayNum = day + june;
+			break;
+
+			//August
+		case 8:
+			dayNum = day + july;
+			break;
+
+			//September
+		case 9:
+			dayNum = day + aug;
+			break;
+
+			//October
+		case 10:
+			dayNum = day + sept;
+			break;
+
+			//November
+		case 11:
+			dayNum = day + oct;
+			break;
+
+			//December
+		case 12:
+			dayNum = day + nov;
+			break;
+		}
 	}
 
 	//Display Daynumber
